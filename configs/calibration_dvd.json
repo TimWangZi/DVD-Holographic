@@ -1,0 +1,16 @@
+{
+  "annulus_inner_mm": 24.7,
+  "annulus_outer_mm": 33.5,
+  "ring_centers_mm": [25, 26, 27, 28, 29, 30, 31, 32, 33],
+  "ring_width_mm": 0.16,
+  "spokes": [
+    {"id": "S01", "angle_deg": 0, "width_mm": 0.16, "identification_dots": 1},
+    {"id": "S02", "angle_deg": 120, "width_mm": 0.10, "identification_dots": 2}
+  ],
+  "background_scrambled_byte": 147,
+  "feature_scrambled_byte": 165,
+  "disc_diameter_mm": 120.0,
+  "center_hole_diameter_mm": 15.0,
+  "chunk_sectors": 512,
+  "tail_sectors": 32
+}

@@ -1,0 +1,121 @@
+{
+  "disc": {
+    "program_start_radius_mm": 24.0,
+    "track_pitch_um": 0.74,
+    "channel_bit_length_nm": 133.3,
+    "start_angle_deg": 0.0,
+    "channel_offset_bits": 0.0,
+    "spiral_direction": 1,
+    "capacity_sectors": 2298496,
+    "tail_sectors": 32,
+    "background_byte": 0
+  },
+  "patch": {
+    "center_radius_mm": 28.0,
+    "angle_deg": 0.0,
+    "size_mm": [
+      4.0,
+      4.0
+    ]
+  },
+  "target": {
+    "edge_mm": 4.0,
+    "distance_mm": 300.0,
+    "offset_mm": [
+      0.0,
+      5.0
+    ],
+    "rotation_deg": [
+      15.0,
+      20.0,
+      12.0
+    ],
+    "points_per_edge": 33,
+    "random_point_phase": true,
+    "phase_seed": 2049
+  },
+  "optics": {
+    "wavelength_nm": 632.8,
+    "illumination_angles_deg": [
+      0.0,
+      0.0
+    ],
+    "beam_profile": "gaussian",
+    "beam_radius_mm": [
+      1.0,
+      1.0
+    ],
+    "beam_center_mm": [
+      0.0,
+      0.0
+    ]
+  },
+  "media": {
+    "reflection_mode": "thin_film",
+    "substrate_n": 1.58,
+    "reflector_n_k": [
+      0.05625293,
+      4.2760281
+    ],
+    "internal_incidence_deg": 0.0,
+    "polarization": "s",
+    "land_layers": [
+      {
+        "n_k": [
+          2.3,
+          0.05
+        ],
+        "thickness_nm": 70.0
+      }
+    ],
+    "mark_layers": [
+      {
+        "n_k": [
+          1.7,
+          0.02
+        ],
+        "thickness_nm": 60.0
+      }
+    ],
+    "land_r": [
+      0.8,
+      0.0
+    ],
+    "mark_r": [
+      0.3,
+      0.35
+    ],
+    "mark_width_um": 0.3,
+    "edge_trim_um": 0.025,
+    "provenance": "Uncalibrated DVD-R priors: land dye2.3+i0.05 at632.8nm transferred from reported DVD-R ranges near650nm,70nm layer assumed; mark1.7+i0.02,60nm and25nm per-edge trim assumed. Ag632.8 interpolated Johnson-Christy1972. See docs/DVD-R.zh-CN.md."
+  },
+  "optimization": {
+    "palette_bytes": [
+      165,
+      147
+    ],
+    "on_fraction": 0.5,
+    "invert": false,
+    "precompensate_scrambler": true
+  },
+  "simulation": {
+    "grid_step_um": [
+      2.5,
+      0.74
+    ],
+    "reconstruction_pixels": 320,
+    "reconstruction_span_mm": 5.0,
+    "focus_offsets_mm": [
+      -2.0,
+      0.0,
+      2.0
+    ],
+    "sector_chunk": 256,
+    "ecc_block_batch": 32,
+    "channel_sample_sectors": 16,
+    "channel_initial_state": 1,
+    "channel_initial_mark": 0,
+    "channel_initial_dsv": 0
+  },
+  "format": "DVD-R"
+}
